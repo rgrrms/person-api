@@ -17,4 +17,16 @@ public class PersonService {
     public Optional<List<PersonEntity>> findAllPerson() {
         return Optional.of(personJpaRepository.findAll());
     }
+
+    public Optional<PersonEntity> findPerson(Long id) {
+        return personJpaRepository.findById(id);
+    }
+
+    public PersonEntity save(PersonEntity person) {
+        return personJpaRepository.save(person);
+    }
+
+    public void deletePerson(Long id) {
+        personJpaRepository.deleteById(id);
+    }
 }

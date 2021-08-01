@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Getter
 @Setter
@@ -13,6 +12,7 @@ import java.util.List;
 public class PersonEntity {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "nome")
@@ -23,8 +23,4 @@ public class PersonEntity {
 
     @Column(name = "estado")
     private String state;
-
-//    @OneToMany
-//    private List<PhoneEntity> phoneEntities;
-
 }

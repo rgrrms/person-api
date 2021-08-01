@@ -5,10 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PersonOutDto {
+public class PersonIdOutDto {
 
     private Long id;
-    private String name;
-    private Long age;
-    private String state;
 }
