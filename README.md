@@ -54,7 +54,7 @@ Com o swagger temos a documentação dos  endpoints podendo executar no proprio 
 
 [Swagger](http://localhost:8080/person-api/v1/swagger-ui.html#/DIO) (http://localhost:8080/person-api/v1/swagger-ui.html#/DIO)
 
-![](https://github.com/rgrrms/TrabalhoA5_DSW_Front/raw/master/src/main/java/one/digitalinnovation/personapi/image/swagger.png)
+![](https://github.com/rgrrms/person-api/raw/master/src/main/java/one/digitalinnovation/personapi/image/swagger.png)
 
 Ou se preferir pode utilizar o [Insomnia](https://insomnia.rest/) ou [Postman](https://www.postman.com/) para testar os enpoints
 
